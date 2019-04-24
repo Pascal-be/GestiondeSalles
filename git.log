@@ -1,0 +1,40 @@
+
+04/24/19 10:55:42
+-c core.quotepath=false -c log.showSignature=false config --null --get user.name
+fin
+
+04/24/19 10:55:43
+-c core.quotepath=false -c log.showSignature=false config --null --get user.email
+fin
+
+04/24/19 10:55:43
+-c core.quotepath=false -c log.showSignature=false config --null --get user.name
+fin
+
+04/24/19 10:55:43
+-c core.quotepath=false -c log.showSignature=false config --null --get user.email
+fin
+
+04/24/19 10:55:43
+-c core.quotepath=false -c log.showSignature=false status --porcelain -z --untracked-files=no -- .
+fin
+
+04/24/19 10:55:43
+-c core.quotepath=false -c log.showSignature=false ls-files --exclude-standard --others -z --
+fin
+
+04/24/19 10:55:45
+-c core.quotepath=false -c log.showSignature=false status --porcelain -z --untracked-files=no -- git.log
+fin
+
+04/24/19 10:55:45
+-c core.quotepath=false -c log.showSignature=false ls-files --exclude-standard --others -z -- git.log
+fin
+
+04/24/19 10:55:59
+-c core.quotepath=false -c log.showSignature=false status --porcelain -z --untracked-files=no -- .idea/compiler.xml .idea/vcs.xml
+fin
+
+04/24/19 10:55:59
+-c core.quotepath=false -c log.showSignature=false ls-files --exclude-standard --others -z -- .idea/vcs.xml
+fin
